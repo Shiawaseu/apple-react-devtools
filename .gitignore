@@ -1,0 +1,39 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+
+# Node.js / React DevTools dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# Build / output directories
+dist/
+build/
+*.app
+*.dmg
+
+# Xcode
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcuserdata/
+*.moved-aside
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Safari extension temporary / cache files
+*.safariextension
+*.safariextz
