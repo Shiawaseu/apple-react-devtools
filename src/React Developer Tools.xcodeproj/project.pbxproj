@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173583D72EFFBB5D00F3234F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173583D62EFFBB5D00F3234F /* AppDelegate.swift */; };
+		173583D92EFFBB5D00F3234F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173583D82EFFBB5D00F3234F /* SceneDelegate.swift */; };
+		173583DC2EFFBB5D00F3234F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173583DA2EFFBB5D00F3234F /* LaunchScreen.storyboard */; };
+		173583DF2EFFBB5D00F3234F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173583DD2EFFBB5D00F3234F /* Main.storyboard */; };
+		173583E82EFFBB5D00F3234F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173583E72EFFBB5D00F3234F /* AppDelegate.swift */; };
+		173583EB2EFFBB5D00F3234F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173583E92EFFBB5D00F3234F /* Main.storyboard */; };
+		173583F22EFFBB5D00F3234F /* React Developer Tools Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 173583F12EFFBB5D00F3234F /* React Developer Tools Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		173583FC2EFFBB5D00F3234F /* React Developer Tools Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 173583FB2EFFBB5D00F3234F /* React Developer Tools Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		173584012EFFBB5D00F3234F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 173583C62EFFBB5C00F3234F /* Main.html */; };
+		173584022EFFBB5D00F3234F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 173583C62EFFBB5C00F3234F /* Main.html */; };
+		173584032EFFBB5D00F3234F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 173583C82EFFBB5C00F3234F /* Icon.png */; };
+		173584042EFFBB5D00F3234F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 173583C82EFFBB5C00F3234F /* Icon.png */; };
+		173584052EFFBB5D00F3234F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 173583C92EFFBB5C00F3234F /* Style.css */; };
+		173584062EFFBB5D00F3234F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 173583C92EFFBB5C00F3234F /* Style.css */; };
+		173584072EFFBB5D00F3234F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 173583CA2EFFBB5C00F3234F /* Script.js */; };
+		173584082EFFBB5D00F3234F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 173583CA2EFFBB5C00F3234F /* Script.js */; };
+		173584092EFFBB5D00F3234F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173583CB2EFFBB5C00F3234F /* ViewController.swift */; };
+		1735840A2EFFBB5D00F3234F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173583CB2EFFBB5C00F3234F /* ViewController.swift */; };
+		1735840B2EFFBB5D00F3234F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173583CC2EFFBB5D00F3234F /* Assets.xcassets */; };
+		1735840C2EFFBB5D00F3234F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173583CC2EFFBB5D00F3234F /* Assets.xcassets */; };
+		1735840D2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173583CE2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift */; };
+		1735840E2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173583CE2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift */; };
+		173584272EFFBB5D00F3234F /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 173584202EFFBB5D00F3234F /* _metadata */; };
+		173584282EFFBB5D00F3234F /* popups in Resources */ = {isa = PBXBuildFile; fileRef = 173584212EFFBB5D00F3234F /* popups */; };
+		173584292EFFBB5D00F3234F /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = 173584222EFFBB5D00F3234F /* main.html */; };
+		1735842A2EFFBB5D00F3234F /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 173584232EFFBB5D00F3234F /* icons */; };
+		1735842B2EFFBB5D00F3234F /* panel.html in Resources */ = {isa = PBXBuildFile; fileRef = 173584242EFFBB5D00F3234F /* panel.html */; };
+		1735842C2EFFBB5D00F3234F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 173584252EFFBB5D00F3234F /* manifest.json */; };
+		1735842D2EFFBB5D00F3234F /* build in Resources */ = {isa = PBXBuildFile; fileRef = 173584262EFFBB5D00F3234F /* build */; };
+		1735842E2EFFBB5D00F3234F /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 173584202EFFBB5D00F3234F /* _metadata */; };
+		1735842F2EFFBB5D00F3234F /* popups in Resources */ = {isa = PBXBuildFile; fileRef = 173584212EFFBB5D00F3234F /* popups */; };
+		173584302EFFBB5D00F3234F /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = 173584222EFFBB5D00F3234F /* main.html */; };
+		173584312EFFBB5D00F3234F /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 173584232EFFBB5D00F3234F /* icons */; };
+		173584322EFFBB5D00F3234F /* panel.html in Resources */ = {isa = PBXBuildFile; fileRef = 173584242EFFBB5D00F3234F /* panel.html */; };
+		173584332EFFBB5D00F3234F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 173584252EFFBB5D00F3234F /* manifest.json */; };
+		173584342EFFBB5D00F3234F /* build in Resources */ = {isa = PBXBuildFile; fileRef = 173584262EFFBB5D00F3234F /* build */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173583F32EFFBB5D00F3234F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173583C02EFFBB5C00F3234F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173583F02EFFBB5D00F3234F;
+			remoteInfo = "React Developer Tools Extension (iOS)";
+		};
+		173583FD2EFFBB5D00F3234F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173583C02EFFBB5C00F3234F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173583FA2EFFBB5D00F3234F;
+			remoteInfo = "React Developer Tools Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		173584142EFFBB5D00F3234F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				173583F22EFFBB5D00F3234F /* React Developer Tools Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1735841B2EFFBB5D00F3234F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				173583FC2EFFBB5D00F3234F /* React Developer Tools Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		173583C72EFFBB5C00F3234F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		173583C82EFFBB5C00F3234F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		173583C92EFFBB5C00F3234F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		173583CA2EFFBB5C00F3234F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		173583CB2EFFBB5C00F3234F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		173583CC2EFFBB5D00F3234F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		173583CE2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		173583D32EFFBB5D00F3234F /* React Developer Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "React Developer Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173583D62EFFBB5D00F3234F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		173583D82EFFBB5D00F3234F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		173583DB2EFFBB5D00F3234F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		173583DE2EFFBB5D00F3234F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		173583E02EFFBB5D00F3234F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173583E52EFFBB5D00F3234F /* React Developer Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "React Developer Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173583E72EFFBB5D00F3234F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		173583EA2EFFBB5D00F3234F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		173583EC2EFFBB5D00F3234F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173583F12EFFBB5D00F3234F /* React Developer Tools Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "React Developer Tools Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173583F62EFFBB5D00F3234F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173583FB2EFFBB5D00F3234F /* React Developer Tools Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "React Developer Tools Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173584002EFFBB5D00F3234F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173584202EFFBB5D00F3234F /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../fmkadmapgofadopljbjfkapdkoienihi/_metadata; sourceTree = "<group>"; };
+		173584212EFFBB5D00F3234F /* popups */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popups; path = ../../fmkadmapgofadopljbjfkapdkoienihi/popups; sourceTree = "<group>"; };
+		173584222EFFBB5D00F3234F /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = main.html; path = ../../fmkadmapgofadopljbjfkapdkoienihi/main.html; sourceTree = "<group>"; };
+		173584232EFFBB5D00F3234F /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../fmkadmapgofadopljbjfkapdkoienihi/icons; sourceTree = "<group>"; };
+		173584242EFFBB5D00F3234F /* panel.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = panel.html; path = ../../fmkadmapgofadopljbjfkapdkoienihi/panel.html; sourceTree = "<group>"; };
+		173584252EFFBB5D00F3234F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../fmkadmapgofadopljbjfkapdkoienihi/manifest.json; sourceTree = "<group>"; };
+		173584262EFFBB5D00F3234F /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = build; path = ../../fmkadmapgofadopljbjfkapdkoienihi/build; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173583D02EFFBB5D00F3234F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583E22EFFBB5D00F3234F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583EE2EFFBB5D00F3234F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583F82EFFBB5D00F3234F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173583BF2EFFBB5C00F3234F = {
+			isa = PBXGroup;
+			children = (
+				173583C42EFFBB5C00F3234F /* Shared (App) */,
+				173583CD2EFFBB5D00F3234F /* Shared (Extension) */,
+				173583D52EFFBB5D00F3234F /* iOS (App) */,
+				173583E62EFFBB5D00F3234F /* macOS (App) */,
+				173583F52EFFBB5D00F3234F /* iOS (Extension) */,
+				173583FF2EFFBB5D00F3234F /* macOS (Extension) */,
+				173583D42EFFBB5D00F3234F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		173583C42EFFBB5C00F3234F /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				173583CB2EFFBB5C00F3234F /* ViewController.swift */,
+				173583CC2EFFBB5D00F3234F /* Assets.xcassets */,
+				173583C52EFFBB5C00F3234F /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		173583C52EFFBB5C00F3234F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				173583C62EFFBB5C00F3234F /* Main.html */,
+				173583C82EFFBB5C00F3234F /* Icon.png */,
+				173583C92EFFBB5C00F3234F /* Style.css */,
+				173583CA2EFFBB5C00F3234F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		173583CD2EFFBB5D00F3234F /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1735841F2EFFBB5D00F3234F /* Resources */,
+				173583CE2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		173583D42EFFBB5D00F3234F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173583D32EFFBB5D00F3234F /* React Developer Tools.app */,
+				173583E52EFFBB5D00F3234F /* React Developer Tools.app */,
+				173583F12EFFBB5D00F3234F /* React Developer Tools Extension.appex */,
+				173583FB2EFFBB5D00F3234F /* React Developer Tools Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173583D52EFFBB5D00F3234F /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				173583D62EFFBB5D00F3234F /* AppDelegate.swift */,
+				173583D82EFFBB5D00F3234F /* SceneDelegate.swift */,
+				173583DA2EFFBB5D00F3234F /* LaunchScreen.storyboard */,
+				173583DD2EFFBB5D00F3234F /* Main.storyboard */,
+				173583E02EFFBB5D00F3234F /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		173583E62EFFBB5D00F3234F /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				173583E72EFFBB5D00F3234F /* AppDelegate.swift */,
+				173583E92EFFBB5D00F3234F /* Main.storyboard */,
+				173583EC2EFFBB5D00F3234F /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		173583F52EFFBB5D00F3234F /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				173583F62EFFBB5D00F3234F /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		173583FF2EFFBB5D00F3234F /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				173584002EFFBB5D00F3234F /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1735841F2EFFBB5D00F3234F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				173584202EFFBB5D00F3234F /* _metadata */,
+				173584212EFFBB5D00F3234F /* popups */,
+				173584222EFFBB5D00F3234F /* main.html */,
+				173584232EFFBB5D00F3234F /* icons */,
+				173584242EFFBB5D00F3234F /* panel.html */,
+				173584252EFFBB5D00F3234F /* manifest.json */,
+				173584262EFFBB5D00F3234F /* build */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173583D22EFFBB5D00F3234F /* React Developer Tools (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173584152EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools (iOS)" */;
+			buildPhases = (
+				173583CF2EFFBB5D00F3234F /* Sources */,
+				173583D02EFFBB5D00F3234F /* Frameworks */,
+				173583D12EFFBB5D00F3234F /* Resources */,
+				173584142EFFBB5D00F3234F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173583F42EFFBB5D00F3234F /* PBXTargetDependency */,
+			);
+			name = "React Developer Tools (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "React Developer Tools (iOS)";
+			productReference = 173583D32EFFBB5D00F3234F /* React Developer Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173583E42EFFBB5D00F3234F /* React Developer Tools (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1735841C2EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools (macOS)" */;
+			buildPhases = (
+				173583E12EFFBB5D00F3234F /* Sources */,
+				173583E22EFFBB5D00F3234F /* Frameworks */,
+				173583E32EFFBB5D00F3234F /* Resources */,
+				1735841B2EFFBB5D00F3234F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173583FE2EFFBB5D00F3234F /* PBXTargetDependency */,
+			);
+			name = "React Developer Tools (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "React Developer Tools (macOS)";
+			productReference = 173583E52EFFBB5D00F3234F /* React Developer Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173583F02EFFBB5D00F3234F /* React Developer Tools Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173584112EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools Extension (iOS)" */;
+			buildPhases = (
+				173583ED2EFFBB5D00F3234F /* Sources */,
+				173583EE2EFFBB5D00F3234F /* Frameworks */,
+				173583EF2EFFBB5D00F3234F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "React Developer Tools Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "React Developer Tools Extension (iOS)";
+			productReference = 173583F12EFFBB5D00F3234F /* React Developer Tools Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		173583FA2EFFBB5D00F3234F /* React Developer Tools Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173584182EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools Extension (macOS)" */;
+			buildPhases = (
+				173583F72EFFBB5D00F3234F /* Sources */,
+				173583F82EFFBB5D00F3234F /* Frameworks */,
+				173583F92EFFBB5D00F3234F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "React Developer Tools Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "React Developer Tools Extension (macOS)";
+			productReference = 173583FB2EFFBB5D00F3234F /* React Developer Tools Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		173583C02EFFBB5C00F3234F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					173583D22EFFBB5D00F3234F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					173583E42EFFBB5D00F3234F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					173583F02EFFBB5D00F3234F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					173583FA2EFFBB5D00F3234F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 173583C32EFFBB5C00F3234F /* Build configuration list for PBXProject "React Developer Tools" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 173583BF2EFFBB5C00F3234F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 173583D42EFFBB5D00F3234F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173583D22EFFBB5D00F3234F /* React Developer Tools (iOS) */,
+				173583E42EFFBB5D00F3234F /* React Developer Tools (macOS) */,
+				173583F02EFFBB5D00F3234F /* React Developer Tools Extension (iOS) */,
+				173583FA2EFFBB5D00F3234F /* React Developer Tools Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173583D12EFFBB5D00F3234F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173584032EFFBB5D00F3234F /* Icon.png in Resources */,
+				173583DC2EFFBB5D00F3234F /* LaunchScreen.storyboard in Resources */,
+				173584012EFFBB5D00F3234F /* Main.html in Resources */,
+				173584072EFFBB5D00F3234F /* Script.js in Resources */,
+				1735840B2EFFBB5D00F3234F /* Assets.xcassets in Resources */,
+				173583DF2EFFBB5D00F3234F /* Main.storyboard in Resources */,
+				173584052EFFBB5D00F3234F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583E32EFFBB5D00F3234F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173584042EFFBB5D00F3234F /* Icon.png in Resources */,
+				173584062EFFBB5D00F3234F /* Style.css in Resources */,
+				173583EB2EFFBB5D00F3234F /* Main.storyboard in Resources */,
+				173584082EFFBB5D00F3234F /* Script.js in Resources */,
+				1735840C2EFFBB5D00F3234F /* Assets.xcassets in Resources */,
+				173584022EFFBB5D00F3234F /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583EF2EFFBB5D00F3234F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173584322EFFBB5D00F3234F /* panel.html in Resources */,
+				173584302EFFBB5D00F3234F /* main.html in Resources */,
+				173584312EFFBB5D00F3234F /* icons in Resources */,
+				1735842E2EFFBB5D00F3234F /* _metadata in Resources */,
+				173584332EFFBB5D00F3234F /* manifest.json in Resources */,
+				1735842F2EFFBB5D00F3234F /* popups in Resources */,
+				173584342EFFBB5D00F3234F /* build in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583F92EFFBB5D00F3234F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1735842B2EFFBB5D00F3234F /* panel.html in Resources */,
+				173584292EFFBB5D00F3234F /* main.html in Resources */,
+				1735842A2EFFBB5D00F3234F /* icons in Resources */,
+				173584272EFFBB5D00F3234F /* _metadata in Resources */,
+				1735842C2EFFBB5D00F3234F /* manifest.json in Resources */,
+				173584282EFFBB5D00F3234F /* popups in Resources */,
+				1735842D2EFFBB5D00F3234F /* build in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173583CF2EFFBB5D00F3234F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173584092EFFBB5D00F3234F /* ViewController.swift in Sources */,
+				173583D72EFFBB5D00F3234F /* AppDelegate.swift in Sources */,
+				173583D92EFFBB5D00F3234F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583E12EFFBB5D00F3234F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1735840A2EFFBB5D00F3234F /* ViewController.swift in Sources */,
+				173583E82EFFBB5D00F3234F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583ED2EFFBB5D00F3234F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1735840D2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173583F72EFFBB5D00F3234F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1735840E2EFFBB5D00F3234F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173583F42EFFBB5D00F3234F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173583F02EFFBB5D00F3234F /* React Developer Tools Extension (iOS) */;
+			targetProxy = 173583F32EFFBB5D00F3234F /* PBXContainerItemProxy */;
+		};
+		173583FE2EFFBB5D00F3234F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173583FA2EFFBB5D00F3234F /* React Developer Tools Extension (macOS) */;
+			targetProxy = 173583FD2EFFBB5D00F3234F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		173583C62EFFBB5C00F3234F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173583C72EFFBB5C00F3234F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		173583DA2EFFBB5D00F3234F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173583DB2EFFBB5D00F3234F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		173583DD2EFFBB5D00F3234F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173583DE2EFFBB5D00F3234F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		173583E92EFFBB5D00F3234F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173583EA2EFFBB5D00F3234F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1735840F2EFFBB5D00F3234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		173584102EFFBB5D00F3234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		173584122EFFBB5D00F3234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools.Extension";
+				PRODUCT_NAME = "React Developer Tools Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		173584132EFFBB5D00F3234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools.Extension";
+				PRODUCT_NAME = "React Developer Tools Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173584162EFFBB5D00F3234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools";
+				PRODUCT_NAME = "React Developer Tools";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		173584172EFFBB5D00F3234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools";
+				PRODUCT_NAME = "React Developer Tools";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173584192EFFBB5D00F3234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools.Extension";
+				PRODUCT_NAME = "React Developer Tools Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1735841A2EFFBB5D00F3234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools.Extension";
+				PRODUCT_NAME = "React Developer Tools Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1735841D2EFFBB5D00F3234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools";
+				PRODUCT_NAME = "React Developer Tools";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1735841E2EFFBB5D00F3234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Developer Tools";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.React-Developer-Tools";
+				PRODUCT_NAME = "React Developer Tools";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173583C32EFFBB5C00F3234F /* Build configuration list for PBXProject "React Developer Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1735840F2EFFBB5D00F3234F /* Debug */,
+				173584102EFFBB5D00F3234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173584112EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173584122EFFBB5D00F3234F /* Debug */,
+				173584132EFFBB5D00F3234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173584152EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173584162EFFBB5D00F3234F /* Debug */,
+				173584172EFFBB5D00F3234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173584182EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173584192EFFBB5D00F3234F /* Debug */,
+				1735841A2EFFBB5D00F3234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1735841C2EFFBB5D00F3234F /* Build configuration list for PBXNativeTarget "React Developer Tools (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1735841D2EFFBB5D00F3234F /* Debug */,
+				1735841E2EFFBB5D00F3234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 173583C02EFFBB5C00F3234F /* Project object */;
+}
