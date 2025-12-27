@@ -38,6 +38,5 @@ This is an **unofficial port of the React Devtools** extension for Safari on App
 > [!WARNING]
 > Rehearsing - This is an unoffical port and I will (probably) never update
 
-<a href="https://www.buymeacoffee.com/shiawase" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" alt="Buy Me A Coffee">
-</a>
+> [!NOTE]
+> Licensed with MIT, as per the upstream repository
