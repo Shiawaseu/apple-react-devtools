@@ -17,7 +17,7 @@ This is an **unofficial port of the React Devtools** extension for Safari on App
   - Install the extension directly via the [Releases](https://github.com/Shiawaseu/apple-react-devtools/releases) tab
   - Clone and compile yourself
 <details>
-<summary>Installation</summary>
+<summary>Click to open the installation guide</summary>
 
 ### 1. Prerequisites
 
