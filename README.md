@@ -1,11 +1,9 @@
-# React Devtools
-
 <p align="center">
-  <img src="/assets/icon.png" alt="React Devtools" width="256px" height="256px"/>
+  <img src="/assets/icon.png" alt="React Devtools" width="128px" height="128px"/>
 </p>
 
-An **unofficial port of the React Devtools** extension for Safari on AppleOS.
----
+## About
+This is an **unofficial port of the React Devtools** extension for Safari on AppleOS.
 
 ## Features
 
