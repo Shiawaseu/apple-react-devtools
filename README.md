@@ -32,6 +32,8 @@ An **unofficial port of the React Devtools** extension for Safari on AppleOS.
 ### 3. Enable the extension
 - You might need to enable the `Allow Unsigned Extensions` setting under **Safari extension settings**
 ![](/assets/3.png)
+![](/assets/4.png)
+
 </details>
 
 ---
