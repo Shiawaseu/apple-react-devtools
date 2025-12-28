@@ -3,7 +3,8 @@
 </p>
 
 ## About
-This is an **unofficial port of the React Devtools** extension for Safari on AppleOS.
+An **unofficial port of the React Devtools** extension for Safari on AppleOS.
+- This substitutes the Facebook's [hacky](https://react.dev/learn/react-developer-tools#safari-and-other-browsers) solution for Safari, which only works on websites you develop as well as exclusivity in develeopment environments.
 
 ## Features
 
